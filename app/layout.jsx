@@ -16,7 +16,7 @@ export default function RootLayout({ children }) {
         head.jsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className="font-nunito bg-orange-500 text-black dark:bg-very-dark-gray-500 dark:text-white">
+      <body className="font-nunito transition-colors duration-500 bg-orange-500 text-black dark:bg-very-dark-gray-500 dark:text-white">
         <Header />
         {children}
       </body>
